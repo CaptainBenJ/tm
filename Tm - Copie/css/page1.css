@@ -1,0 +1,243 @@
+
+
+
+body{
+	background: white;
+}
+
+a{
+	color:white;
+	text-decoration: none
+}
+
+
+.hautDePage{ /*une division marquant le haut de la page*/
+
+	width : 1229px;
+	background-color: black;
+
+	margin-left: -8px;
+	margin-top: -8px;
+	padding:60px;
+
+
+
+}
+
+
+.blocFt{ /*bloc principale*/
+
+	color:white;
+
+	background-color: rgba(163,163,163,0.4);
+	box-shadow: 3px 3px 100px 0px black;
+	
+	
+	width:1100px;
+	margin: auto;
+	padding-bottom: 125px;
+	margin-top: 0px;
+
+	display:flex;
+	flex-direction: column;
+
+}
+
+.barreMenu{ /*la sidebare*/
+
+	border: 10px outset white;
+	border-radius: 25px;
+	box-shadow: 6px 6px 6px black;
+
+	background-color: rgba(0,0,0,1);
+
+	width:90%;
+	min-width: 500px;
+	text-align:justify;
+	margin:auto;
+	margin-top: 50px;
+
+	display:flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	}
+
+.menu{ /*les menu de la sidebar*/
+
+		border: 5px outset white;
+		border-radius: 35px;
+
+		background-color: black;
+		color:white;
+		opacity: 1;
+
+		width:10%;
+		text-align: center;
+
+		padding-top: 3px;
+		padding-bottom: 3px;
+
+}
+
+
+.menuDroite, .blocGauche, .blocDroite{ /*multiblock allure*/
+	border: 4px outset white;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px black;
+
+	color:white;
+	background-color: #708B94;
+	
+	display:flex;
+}
+
+.menuDroite{ /*le menu de la page*/
+
+	position: fixed;
+	width:20%;
+	margin: auto;
+	margin-left: 1025px;
+	margin-top: 220px;
+	padding-bottom: 15px;
+}
+
+.listeDroite{ /*réferencement aux li du menu*/
+	color: white;
+
+	font-size: 0.85em;
+    font-family: "Comic Sans MS", "Times New Roman", sans-serif;
+
+    margin-top: 15px;
+    
+}
+
+.listeDroite:hover{ /*survolement des li du menu*/
+
+	color:#E8CDB7;
+	text-shadow: 4px 4px 6px black;
+}
+
+.blocGauchePremier{ /*le premier bloc à gauche*/
+
+	width: 33%;
+	margin:auto;
+	margin-top: 76px;
+	margin-right: 565px;
+
+	padding:30px;
+
+	text-align: justify;
+
+	display:flex;
+	flex-direction: column;
+
+}
+
+.chevauchagePremier{
+
+	margin-top: -18px;
+}
+
+.boutonNext{ /*le premier bouton*/
+
+	background-color: rgba(113,227,206,0.6);
+
+	border: 2px outset white;
+	border-radius: 50%;
+
+	width: 15%;
+	margin-left: 235px;
+	margin-top: -93px;
+
+	padding-top: 72px;
+	padding-bottom: 72px;
+
+	text-align: center;
+}
+
+.textTaille{ /*la taille du texte du premier bouton*/
+
+	color:white;
+
+	font-size: 0.83em;
+	opacity: 1.3;
+}
+
+.blocDroitePremier{ /*le premier bloc à droite*/
+
+	width: 33%;
+	margin:auto;
+
+	margin-top: 300px;
+	margin-right: 100px;
+	padding:30px;
+
+	text-align: justify;
+
+	display:flex;
+	flex-direction: column;
+
+
+}
+
+.chevauchageDeuxieme{
+
+	margin-top: -90px;
+}
+
+.boutonNextDeux{ /*le deuxième bouton*/
+
+	background-color: rgba(113,227,206,0.6);
+
+	border: 2px outset white;
+	border-radius: 50%;
+
+	width: 15%;
+	margin-left: 715px;
+	
+
+	padding-top: 72px;
+	padding-bottom: 72px;
+
+	text-align: center;
+}
+
+.blocDernier{ /*le deuxème bloc à gauche*/
+
+	width: 80%;
+	margin:auto;
+	margin-top: 300px;
+
+	padding:30px;
+
+	text-align: justify;
+
+	display:flex;
+	flex-direction: column;
+
+}
+
+.chevauchageDernier{
+
+	margin-top: -48px;
+}
+
+.boutonDernier{ /*le deuxième bouton*/
+
+	background-color: rgba(113,227,206,0.6);
+
+	border: 2px outset white;
+	border-radius: 15px;
+
+	width: 15%;
+	margin:auto;
+	margin-left: 465px;
+	
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	text-align: center;
+}
